@@ -5,12 +5,7 @@ import Key from './key';
 
 describe('Given the component Key', () => {
 
-    const mockKey = {
-
-        className: 'test className',
-
-
-    };
+    const mockKey = 'Test String'
 
 
 
@@ -20,9 +15,9 @@ describe('Given the component Key', () => {
 
             //Arrange & Act
 
-            render(<Key className={mockKey.className}  />);
+            render(<Key value={mockKey} />);
 
-            const labelInput = screen.getByText(/test className/i);
+            const labelInput = screen.getByText(/test/i);
 
             //Assert
 
