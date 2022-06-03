@@ -1,5 +1,8 @@
 
 import { createContext } from 'react';
+import Call from '../components/actions/call';
+import Display from '../components/actions/display';
+import Hang from '../components/actions/hang';
 
 const initialContext: {
     display: string;

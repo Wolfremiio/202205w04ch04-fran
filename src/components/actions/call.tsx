@@ -1,9 +1,14 @@
 import { useContext } from "react"
-import {PhoneContext} from "../../context/phone-context";
+import { PhoneContext } from "../../context/phone-context";
+
+
+
+
+
 
  function Call (){
 
-const {display, call, startCall}= useContext{PhoneContext};
+const {display, call, startCall}= useContext{PhoneContext}
 
 
 let state = 'call';
