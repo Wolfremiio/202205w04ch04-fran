@@ -4,13 +4,13 @@ import { createContext } from 'react';
 const initialContext: {
     display: string;
     addNumber: (number: string) => void;
-    calling: boolean;
+    call: boolean;
     startCall: () => void;
 
 } = {
     display: '',
     addNumber: () => {},
-    calling: false,
+    call: false,
     startCall: () => {},
 
 };
